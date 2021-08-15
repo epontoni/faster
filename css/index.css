@@ -22,6 +22,7 @@
 body {
     margin: 0;
     font-family: var(--baseFontFamily);
+    overflow-x: hidden; /* añadido para quitar el overflow-x del pseudo elemento after de la sección 3*/
 }
 
 header {
@@ -184,6 +185,7 @@ section {
     display: grid;
     grid-template-columns: var(--gridColumns);
     background-image: url('../images/planta.png');
+    background-position: right bottom;
     background-size: cover;
 }
 
